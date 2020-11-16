@@ -25,6 +25,7 @@ public class App {
 	    log.error("Hello this is an error message " + new Date().toString());//
 	    log.fatal("Hello this is an fatal message " + new Date().toString());
 	    log.trace("Hello this is an trace message " + new Date().toString());
+	    log.trace("Git Test Hello this is an trace message " + new Date().toString());
 
 	}
 }
