@@ -16,7 +16,7 @@ public class App {
 	static Logger log = LogManager.getLogger(App.class.getName());
 
 	public static void main(String[] args) {
-		System.out.println("Bye World!");
+		System.out.println("Bye World Branch merge testing!");
 		PropertyConfigurator.configure("log4j.properties");
 		//if(log.isDebugEnabled()) 
 		log.debug("Hello this is a debug message: " + new Date().toString());//
